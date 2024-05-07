@@ -1,0 +1,82 @@
+.contenido{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+.titulo{
+    font-size: 4em;
+    color:midnightblue;
+    font-weight: bold;
+    text-align:center;
+}
+img{
+    width: 200px;
+    height: 250px;
+    text-align: center;
+
+}
+fieldset{
+    width: 50%;
+    margin: 100px;
+    padding:20px;
+    background: beige;
+}
+legend{
+    font-size :2em;
+    color:darkred;
+}
+
+
+select, label{
+    font-size:1.8em;
+    color:navy;
+    padding: 10px
+}
+
+
+
+input.letra{
+    font-family:"Comic Sans MS";
+    font-size:5em;
+    color:brown;
+    border:hidden;
+    border-bottom: 5px solid;
+    size:1em;
+}
+input[type=submit]{
+    font-size:1.6em;
+    color:navy;
+    margin-left:30px;
+}
+label{
+    font-size:2em;
+    color:navy;
+    margin-left:30px;
+}
+
+input[type=text]{
+    font-size :1.6em;
+    color:navy;
+    padding:5px;
+    margin:5px
+}
+
+.galery{
+    width:80%;
+    margin:auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.galery img{
+    width: 100px;
+    height: 100px;
+}
+.galery li{
+    margin:5px
+}
